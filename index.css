@@ -368,6 +368,16 @@ header {
   margin-bottom: 2em;
 }
 
+.section-title-work::after {
+  content: "";
+  display: block;
+  width: 3em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.25;
+}
+
 
 .portfolio {
   display: grid;
