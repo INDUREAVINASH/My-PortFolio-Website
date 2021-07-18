@@ -362,6 +362,12 @@ header {
   text-align: center;
 }
 
+.section-title-work {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
