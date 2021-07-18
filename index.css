@@ -365,6 +365,7 @@ header {
 .section-title-work {
   color: var(--clr-accent);
   position: relative;
+  margin-bottom: 2em;
 }
 
 
