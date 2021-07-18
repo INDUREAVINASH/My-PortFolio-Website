@@ -364,13 +364,14 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 .portfolio-item {
   background: var(--clr-accent);
   overflow: hidden;
   border-radius: 10px;
   margin-left: 2em;
+  margin-bottom: 2em;
 }
 .portfolio-img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
